@@ -24,6 +24,6 @@ Recreated the **PHA5E** website’s hero section using **HTML**, **CSS**, **Java
 ### Submission Details  
 
 - **Live Webpage:** [PHA5E Recreated](https://pha5e-recreate.vercel.app/)  
-- **GitHub Repository:** [GitHub Link](https://github.com/fayolamenezes/pha5e-recreate.git)  
+- **GitHub Repository:** [GitHub Link]((https://charithasree-2.github.io/PHA5E-UPDATED/index.html))  
 
 
