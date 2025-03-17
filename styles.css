@@ -1,28 +1,28 @@
-/* Import Archivo Black font from Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
-/* Reset default styles for all elements */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global Styles */
+
 body {
-    background-color: #212121; /* Dark background */
-    color: white; /* White text for contrast */
+    background-color: #212121; 
+    color: white; 
     font-family: 'Archivo Black', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
     overflow: auto;
 }
 
-/* Navbar Styles */
+
 .navbar {
-    font-family: Arial, sans-serif; /* Different font for readability */
+    font-family: Arial, sans-serif;
     display: flex;
-    justify-content: space-between; /* Aligns logo and links */
+    justify-content: space-between; 
     padding: 20px;
 }
 
@@ -30,25 +30,25 @@ body {
     color: white;
     text-decoration: none;
     margin: 0 10px;
-    text-transform: capitalize; /* Capitalize only first letter */
+    text-transform: capitalize; 
 }
 
-/* Logo Styles */
+
 .logo {
     font-family: 'Archivo Black', sans-serif;
     font-weight: 400;
     font-size: 24px;
 }
 
-/* Hero Section */
+
 .hero {
     text-align: center;
     padding: 100px 0;
-    position: relative; /* Keeps text above images */
+    position: relative; 
     z-index: 2;
 }
 
-/* Hero Heading */
+
 h1 {
     font-size: 8vw;
     font-weight: 900;
@@ -59,7 +59,7 @@ h1 {
     z-index: 3;
 }
 
-/* Image Container (background images) */
+
 .image-container {
     position: absolute;
     width: 100%;
@@ -72,11 +72,11 @@ h1 {
     align-items: center;
     padding: 50px;
     pointer-events: auto;
-    z-index: 1; /* Lower than text */
+    z-index: 1; 
     opacity: 1;
 }
 
-/* Individual Hero Images */
+
 .hero-image {
     width: 310px;
     height: auto;
@@ -88,7 +88,7 @@ h1 {
     transition: filter 0.4s ease-in-out;
 }
 
-/* Add a vector-like overlay on images */
+
 .hero-image::after {
     content: "";
     position: absolute;
@@ -97,32 +97,32 @@ h1 {
     width: 100%;
     height: 100%;
     background: url("/images/svg.jpg") center/cover no-repeat;
-    opacity: 0; /* Hidden by default */
+    opacity: 0; 
     transition: opacity 0.4s ease-in-out;
 }
 
 
 
 
-/* Show the vector overlay only when hovering */
+
 .hero-image:hover::after {
     opacity: 1;
 }
 
-/* Hero Heading Effect */
+
 .hero h1 {
-    color: white; /* Default color */
+    color: white; 
     transition: color 0.3s ease;
 }
 
-/* Change text to an outline effect when hovering over images */
+
 .image-container:hover ~ .hero h1 {
     color: transparent;
     -webkit-text-stroke: 2px white;
     mix-blend-mode: difference;
 }
 
-/* Image Caption/Heading */
+
 .image-heading {
     position: absolute;
     bottom: 10px;
@@ -132,10 +132,10 @@ h1 {
     color: white;
     padding: 10px 15px;
     opacity: 0;
-    transform: translateY(10px); /* Moves down slightly before appearing */
+    transform: translateY(10px); 
 }
 
-/* Image Heading Text */
+
 .image-heading h2 {
     font-size: 16px;
     margin: 0;
@@ -147,7 +147,7 @@ h1 {
     opacity: 0.8;
 }
 
-/* Positioning Images in Four Corners */
+
 .hero-image:nth-child(1) { 
     top: 25%; 
     left: 20%; 
@@ -173,7 +173,7 @@ h1 {
         font-size: 12vw;
     }
 
-    /* Stack images vertically */
+    
     .image-container {
         position: static;
         display: flex;
@@ -189,12 +189,12 @@ h1 {
         opacity: 1;
     }
 
-    /* Remove hover fade effect on mobile */
+    
     .image-container:hover .hero-image:not(:hover) {
         opacity: 1;
     }
 
-    /* Hero text stays solid on mobile */
+    
     .image-container:hover ~ .hero h1 {
         color: white;
         -webkit-text-stroke: 0;
