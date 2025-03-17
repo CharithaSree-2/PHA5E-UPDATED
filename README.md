@@ -6,25 +6,12 @@ Recreated the **PHA5E** website’s hero section using **HTML**, **CSS**, **Java
 ---
 
 ### Key Features
-
-1. **Initial Animation**  
-   - **Text and images** fade in with **GSAP** animations.  
-   - **Images** scale and fade from 50% opacity and 0.5 scale.
-
-2. **Hover Interaction**  
-   - Hovered image **scales up** and becomes fully visible.  
-   - Other images **fade** and become vector-like.  
-   - **Text** changes color and gains a subtle **stroke**.
-
-3. **Mouse Movement Effect**  
-   - Image follows the cursor, creating a **parallax effect** using **GSAP**.
-
-4. **Image Headings**  
-   - Dynamic text (headings and subtitles) adjusts based on image position.
-
-5. **Image Scaling and Transitions**  
-   - On hover, image **scales** to 1.1x, and others fade.  
-   - **Text** transitions to transparent with a **GSAP** effect.
+1. ##Initial Animation:##
+    Smooth fade-in for text and images.
+Hover Interaction: Scale effect, vector-like transformation, and text stroke.
+Mouse Movement Effect: Parallax effect using GSAP.
+Dynamic Headings: Adjust text styles based on hover.
+Image Scaling and Transitions: On hover, scale images and fade others.
 
 ---
 
